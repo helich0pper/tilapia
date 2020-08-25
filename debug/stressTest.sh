@@ -10,9 +10,8 @@ else
 	req=1;
 	while true
 	do
-		curl -q -u hello@anything.com:helichopper $1/login.php
+		curl -q -u hello@anything.com:helich0pper $1/login.php
 		echo Request: $req
-	   	req=$(($req+1))	
+	   	req=$(($req+1))
 	done
 fi
-

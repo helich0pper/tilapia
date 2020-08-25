@@ -20,7 +20,7 @@ By helich0pper   \\\/  o\ .
                  //\___=
                     ''
           """, "cyan"))
-def lod(msg, n):
+def lod(msg, n): # Don't ask about this. Just move on.
     space = 50
     hash = 0
 
