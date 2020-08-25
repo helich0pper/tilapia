@@ -10,3 +10,6 @@ cd tilapia\
 sudo apt-get install python3-pip\
 sudo pip3 install -r requirements.txt\
 sudo ./tilapia.py\
+# About
+<a href="https://twitter.com/helich0pper">Twitter</a> <br>
+<a href="https://www.hackthebox.eu/profile/163104">HackTheBox</a> <br>
