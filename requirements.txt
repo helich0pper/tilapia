@@ -11,7 +11,7 @@ defer==1.0.6
 distro==1.4.0
 distro-info===0.23ubuntu1
 entrypoints==0.3
-httplib2==0.14.0
+httplib2==0.18.0
 idna==2.8
 keyring==18.0.1
 language-selector==0.1
