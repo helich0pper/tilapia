@@ -4,7 +4,7 @@ from py.mens import *
 from py.pages import *
 from py.files import *
 from py.nav import *
-####MAIN########################################################################
+# Main
 if os.geteuid() == 0:
     os.system("clear")
     os.system("chmod a+rwx shell/*")
@@ -12,7 +12,6 @@ if os.geteuid() == 0:
         start()
     except (KeyboardInterrupt):
         pass
-        ####CLOSE#######################################################################
     os.system("shell/close.sh")
 else:
     showTitle()
