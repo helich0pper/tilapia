@@ -1,5 +1,6 @@
 # Disclaimer
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
+The templates provided are basic and are for demonstration purposes, not a real engagement.
 # Tilapia
 Phishing tool with 26 available platforms and custom subdomains\
 ![Platforms](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/2.png)
