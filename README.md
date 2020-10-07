@@ -6,6 +6,7 @@ Phishing tool with 26 available platforms and custom subdomains\
 ![Platforms](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/2.png)
 ![Test](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/3.png)
 # Setup
+git clone https://github.com/helich0pper/tilapia.git
 cd tilapia\
 ./setup.sh\
 sudo apt-get install python3-pip\
