@@ -7,7 +7,7 @@ from py.nav import *
 # Main
 if os.geteuid() == 0:
     os.system("clear")
-    os.system("chmod a+rwx shell/*")
+    os.system("chmod 755 shell/*")
     try:
         start()
     except (KeyboardInterrupt):
