@@ -2,8 +2,13 @@
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
 The templates provided are basic and are for demonstration purposes, not a real engagement.
 # Tilapia
+Main menu\
+![Main Menu](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/1.png)
 Phishing tool with 26 available platforms and custom subdomains\
 ![Platforms](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/2.png)
+Multiple options available for most commonly used templates\
+![Template Options](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/4.png)
+Get real-time POST requests\
 ![Test](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/3.png)
 # Setup
 git clone https://github.com/helich0pper/tilapia.git \
