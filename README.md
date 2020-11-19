@@ -1,3 +1,5 @@
+# Note
+Code needs to be reworked for compatibility. Currently the tool depends on Apache server, this dependancy will be removed as well.
 # Disclaimer
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
 The templates provided are basic and are for demonstration purposes, not a real engagement.
