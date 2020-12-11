@@ -5,7 +5,6 @@ from termcolor import colored
 from .mens import showTitle
 ####CONFIG######################################################################
 def fsetup():
-    os.system("apt-get install apache2;clear")
     showTitle();
     print(colored('Ngrok\n', 'red'), "Please sign up or log in to avoid unexpected server crashes");
     print(" You can do that here: ", end="");

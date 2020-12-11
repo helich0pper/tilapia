@@ -60,7 +60,7 @@ def getLocURL(method):
     return msg
 def getDone():
     try:
-        with open("/var/www/html/user.txt") as data:
+        with open("www/user.txt") as data:
             while True:
                 time.sleep(5)
                 s = data.read()
