@@ -12,11 +12,11 @@ Tilapia uses Ngrok and LocalXpose to port forward hosted domains making them acc
 ## **Get real-time POST requests**
 ![Test](https://raw.githubusercontent.com/Helichopper/Tilapia/master/screenshots/3.png)
 # Setup
-git clone https://github.com/helich0pper/tilapia.git \
-cd tilapia\
-./setup.sh\
-sudo apt-get install python3-pip\
-sudo pip3 install -r requirements.txt\
-sudo ./tilapia.py
+1. ```git clone https://github.com/helich0pper/tilapia.git``` 
+2. ```cd tilapia``` 
+3. ```sudo ./setup.sh``` 
+4. ```sudo apt-get install python3-pip``` 
+5. ```sudo pip3 install -r requirements.txt``` 
+6. ```sudo ./tilapia.py```
 # About
 <a href="https://twitter.com/helich0pper">Twitter</a> <br>
