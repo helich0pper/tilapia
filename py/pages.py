@@ -41,7 +41,7 @@ def capture(method):
             if v == 'err':
                 error(method)
         except (Exception, PermissionError):
-            error()
+            error("compat")
         done(v)
 
 def error(errCode):
@@ -50,6 +50,9 @@ def error(errCode):
         print(colored(s, "red"))
     elif errCode == "io":
         s = "\n\nIndex file was not found in path specified!"
+        print(colored(s, "red"))
+    elif errCode == "compat":
+        s = "\n\n There was an error due to incompatibility. Please report this incident or try another forwarding method."
         print(colored(s, "red"))
     else:
         s = "\n\nSomething went wrong. Please check your internet connection.\nIt is possible that the requested subdomain is taken or LocalXpose servers are temporarily down, try another subdomain name or Ngrok."

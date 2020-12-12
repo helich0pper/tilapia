@@ -8,7 +8,18 @@ if [ $1 = "ng" ]
 then
   echo  > shell/tunnel.json
   killall -q ngrok
-  shell/ngrok http 8069 -config=shell/ngrok.yml >/dev/null &
+  shell/ngrok http 8069 -config=shell/ngrok.yml > /dev/null &
+
+  if [ $? -eq 0 ]
+  then
+      printf "\nNot compatible. Trying alternative method...\n"
+      shell/ngrok2 http 8069 -config=shell/ngrok.yml > /dev/null &
+  fi
+
+  if [ $? -eq 0 ]
+  then
+      printf "\nNot compatible. Please report his incident or try localxpose :)\n"
+  fi
 else
   killall -q loclx
   shell/loclx tunnel http --to 127.0.0.1:8069 --subdomain $1 >/dev/null &
