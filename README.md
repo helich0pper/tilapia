@@ -1,8 +1,8 @@
 # Disclaimer
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
 The templates provided are basic and are for demonstration purposes, not a real engagement. <br>
-** Note:  I created this tool in order to help me learn Python.**
 # Setup
+**Note:  I created this tool in order to help me learn Python.**
 1. ```git clone https://github.com/helich0pper/tilapia.git``` 
 2. ```cd tilapia``` 
 3. ```sudo ./setup.sh``` 
