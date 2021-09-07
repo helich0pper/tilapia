@@ -8,17 +8,17 @@ if [ $1 = "ng" ]
 then
   echo  > shell/tunnel.json
   killall -q ngrok
-  shell/ngrok http 8069 -config=shell/ngrok.yml > /dev/null &
+  shell/ngrok http 8069 --config shell/ngrok.yml > /dev/null &
 
-  if [ $? -eq 0 ]
+  if [ $? -ne 0 ]
   then
       printf "\nNot compatible. Trying alternative method...\n"
-      shell/ngrok2 http 8069 -config=shell/ngrok.yml > /dev/null &
+      shell/ngrok2 http 8069 --config shell/ngrok.yml > /dev/null &
   fi
 
-  if [ $? -eq 0 ]
+  if [ $? -ne 0 ]
   then
-      printf "\nNot compatible. Please report his incident or try localxpose :)\n"
+      printf "\nNot compatible. Please report this incident or try localxpose. You can also try to rename shell/ngrok2 to shell/ngrok.\n"
   fi
 else
   killall -q loclx
