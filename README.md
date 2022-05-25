@@ -1,3 +1,6 @@
+# Did this project to learn Python, save your eyes from the source code 💤
+Tilapia is for demonstration purposes only and not for a mass attack. Port forwarding is handled by Ngrok and localxpose.
+
 # Disclaimer
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
 The templates provided are basic and are for demonstration purposes, not a real engagement. <br>
