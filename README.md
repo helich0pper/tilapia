@@ -5,7 +5,7 @@ Tilapia is for demonstration purposes only and not for a mass attack. Port forwa
 This tool is for educational purposes only. Any misuse or damage caused will be solely the users responsibility.
 The templates provided are basic and are for demonstration purposes, not a real engagement. <br>
 # Setup
-**Note:  I created this tool in order to help me learn Python.**
+**Note:  I created this tool in order to help me learn Python. Port forwarding depends on Ngrok/localxpose so if they go down so does port forwarding. Do it manually on your router for more reliable results**
 1. ```git clone https://github.com/helich0pper/tilapia.git``` 
 2. ```cd tilapia``` 
 3. ```sudo ./setup.sh``` 
